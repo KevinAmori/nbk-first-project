@@ -1,0 +1,201 @@
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+    background-image: 
+    url('wepik-export-20230728214443Rq8N.png');
+    background-size: cover;
+}
+
+.menu {
+    width: 100%;
+    height: 4px;
+    background: ivory;
+    padding: 20px 0px 50px 50px;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    align-items: center;
+}
+
+.menu-nbk {
+    max-width: 100%;
+    float: left;
+    transition-duration: 0.5s;
+
+}
+
+.menu-nbk:hover{
+    color: blue;
+}
+
+.menu-nbk li{
+    margin-top: -18x;
+    display: inline-block;
+    transition-duration: 5s;
+}
+
+.menu-nbk li:hover{
+    color: rgb(17, 17, 186);
+}
+
+.menu-nbk a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-left: 33px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+.login li{
+    display: inline-block;
+    margin-top: 28px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+
+.login {
+    float: right;
+    margin-right: 40px;
+    margin-top: 6px;
+}
+
+.login a{
+    text-decoration: none;
+    color: navy;
+}
+
+/* Início da Imagem após o topo */
+
+    /**.imagem p{
+        font-family: 'Nanum Gothic', sans-serif;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 1200px;
+    } **/
+
+    /**.imagem p h2{
+        font-family: 'Nanum Gothic', sans-serif;
+        color: white;
+        font-size: 30px;
+        font-weight: lighter;
+    }**/
+
+    .form {
+        box-sizing: border-box;
+        background: white;
+        max-width: 330px;
+        height: 300px;
+        float: right;
+        border-radius: 8px;
+        text-align: center;
+        padding: 50px;
+        margin-top: 170px;
+        margin-right: 50px;
+    }
+
+    .form h3{
+        color: black;
+        font-size: 22px;
+        margin-bottom: px;
+    }
+
+    .name {
+        color: #585858;
+        font-size: 20px;
+        font-family: 'Cabin', sans-serif;
+    }
+
+    .campo{
+        bottom: 10px;
+        border-width: 0px 0px 1px;
+        box-sizing: border-box;
+        display: block;
+        margin: 0px;
+        padding: 8px 24px 24px 0px;
+        text-align: left;
+        outline: none;
+        width: 100%;
+        border-bottom-style: solid;
+        overflow: hidden;
+    }
+
+    .buto {
+        background-color: rgb(203, 203, 203);
+        color: white;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        line-height: 1;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        border-radius: 6.25rem;
+        height: 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        outline: 0px;
+        border: 0px;
+        overflow: hidden;
+        transition-duration: 0.3s;
+    }
+
+    .buto:hover{
+        background-color: navy;
+    }
+    
+
+    .buto a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .desespero{
+        padding: 100px;
+        margin-top: 85px;
+        color: rgba(43, 14, 176, 0.955);
+    }
+
+    .desespero h1{
+        font-size: 52px;
+        margin-bottom: 3px;
+    }
+
+    .desespero h2{
+        font-size: 25px;
+    }
+
+    .haeder{
+        margin: 0 0 32px;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 1.3;
+        color: black;
+        border-bottom: 100px;
+    }
+/** Final da Imagem apos o topo **/
+
+.ul{
+    transition: height 1s;
+    animation: height 1s;
+}
+
+.ul:li{
+    height: 100px;
+}
+
+.campo:hover{
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  

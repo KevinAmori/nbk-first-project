@@ -1,0 +1,109 @@
+body {
+    background-color: #f2f2f2;
+    background-image: url(../img/estilo-de-vida-inspirador-e-retrato-do-conceito-de-pessoas-de-uma-loira-criativa-e-alegre-procurando-a-perfeicao.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 600px;
+    padding: 35px;
+    height: 570px;
+    background-color: white;
+  }
+  
+  h1 {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    padding: 20px 0px 20px 0px;
+    
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input {
+    bottom: 10px;
+    border-width: 0px 0px 1px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0px;
+    padding: 8px 23px 23px 0px;
+    text-align: left;
+    outline: none;
+    width: 100%;
+    border-bottom-style: solid;
+    border-color: gray;
+    overflow: hidden;
+  }
+  
+  button {
+    background-color: rgb(199, 190, 190);
+        color: white;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        line-height: 1;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        border-radius: 6.25rem;
+        height: 3rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        outline: 0px;
+        border: 0px;
+        overflow: hidden;
+        text-decoration: none;
+        transition-duration: 0.35s;
+  }
+
+  .buto{
+    transition-duration: 0.35s;
+  }
+
+  .buto:hover{
+    background-color: navy;
+  }
+
+  .button a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .butu a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: navy;
+  }
+
+  .logo{ 
+    left: -25px;
+    top: -5px;
+    padding: 20px 0px 50px 50px;
+    position: fixed;
+  }
+  
+.input-group input:hover{
+  border: none;
+  border-bottom: 2px solid black;
+}

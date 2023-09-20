@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <html lang="pt-br">
+  <title>Cadastre-se | NBK Web App</title>
+  <link rel="stylesheet" type="text/css" href="../css/loginnbk_01.css">
+  <link rel="shortcut icon" href="../img/social_48959 (1).png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  
+
+
+  <link rel="icon">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <h1>Cadastre-se</h1>
+      <form>
+        <div class="input-group">
+          <div class="input-group">
+            <label for="nome">Nome completo</label><p id="sonot"></p>
+            <input type="text" id="nomeado" required value="">
+          </div>
+
+        <div class="input-group">
+          <label for="cpf">CPF</label>
+          <input type="text" name="cpf" id="cpf" autocomplete="off" maxlength="14" required>
+        </div>
+
+        <div class="input-group">
+          <label for="Senha">Senha</label>
+          <input type="password" id="Senha" required>
+        </div>
+
+        <div class="butu">
+          <button type="submit"><a href="../html/loginnbk_02.html">Continuar</a>
+            <span class="material-symbols-outlined">
+              arrow_forward
+              </span>
+          </button>
+        </div>
+      </form>
+      <div>
+        <a class="logo" href="nbk.html"><img src="../img/social_48959 (1).png" alt=""></a>
+      </div>
+
+    </div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<script>
+
+  var inputName = document.getElementById("nomeado");
+  inputName.value =  localStorage.getItem('valueText');
+
+// RIP CPF KEYPRESS
+
+function format(cpf) {
+    cpf = cpf.replace(/\D/g, ''); // remove tudo que não é número
+    if (cpf.length > 11) {
+        cpf = cpf.substring(0, 11);
+    }
+    var dv = cpf.substring(9);
+    if (dv.length > 0) {
+        dv = '-' + dv;
+    }
+
+    return cpf.substring(0, 9).split(/(?=(?:\d{3}){0,3}$)/).join('.') + dv;
+}
+
+// depois é só substituir no input
+var cpfInput = document.querySelector('#cpf');
+cpfInput.addEventListener('input', function() {
+    cpfInput.value = format(cpfInput.value);
+});
+</script>

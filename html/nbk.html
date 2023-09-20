@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>NBK - Finalmente você no controle do seu dinheiro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="../css/nbk.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2?family= Cabin & family= Nanum+Gothic & display=swap" rel="stylesheet" >
+    <link rel="shortcut icon" href="../img/social_48959 (1).png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head> 
+<body>
+    <header class="menu">
+        <div>
+            <a class="logo" href="nbk.html"><img src="../img/social_48959 (1).png" alt=""></a>
+        </div>
+        <nav class="menu-nbk">
+            <ul>
+                <li><a href="nbk.html">Pagina Inicial</a></li>
+                <li><a href="nbk.html">Para você</a></li>
+                <li><a href="nbk.html">Para seu negócio</a></li>
+                <li><a href="nbk.html">O NBK</a></li>
+                <li><a href="nbk.html">Perguntas</a></li>
+            </ul>
+        </nav>
+        <ul class="login">
+            <li><a href="../html/loginnbk_01.html">Login</a></li>
+        </ul>
+    </header>
+
+<!-- Início da Imagem após o topo -->>
+
+    <div class="form">
+        <h3 class="haeder">Peça sua conta e cartão<br> de crédito da NBK</h3>
+        <label for="name"><span class="name"></span>
+        <input type="text" class="campo" id="nome" placeholder="Digite seu nome completo" required>
+        </label>
+        <br>
+        <button type="submit" class="buto" id="butou"><a href="../html/loginnbk_01.html"></a>
+            <span><a href="../html/loginnbk_01.html">Continuar</a></span>
+            <span class="material-symbols-outlined">
+                arrow_forward
+                </span>
+        </button>
+    </div>
+</div>    
+
+<div class="desespero">
+    <h1>O controle da sua Vida<br>na palma da sua mão</h1>
+    <h2>O que você precisa para ficar no controle<br>da sua vida financeira tem aqui</h2>
+</div>
+<!-- Final da Imagem após o topo -->>
+
+
+</body>
+</html>
+
+<script>
+    // font-family: 'Cabin', sans-serif;
+        // font-family: 'Nanum Gothic', sans-serif;
+        
+                    var btn = document.getElementById("butou");
+            
+                    btn.addEventListener("click", function () {
+                        var text = document.getElementById("nome").value;
+                        localStorage.setItem('valueText', text);
+                        console.log(localStorage.getItem("valueText"))
+                    })
+
+
+
+</script>
